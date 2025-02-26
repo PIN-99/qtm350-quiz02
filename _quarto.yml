@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs  # GitHub Pages 需要使用 docs 目录
+
+website:
+  title: "Gapminder Analysis"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "Home"
+      - href: life-gdp.qmd
+        text: "Life Expectancy and GDP"
+      - href: life-population.qmd
+        text: "Life Expectancy and Population"
+      - href: country.qmd
+        text: "Country Analysis"
+format:
+  html:
+    theme: journal
